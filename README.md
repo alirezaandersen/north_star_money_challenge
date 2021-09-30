@@ -13,6 +13,8 @@ it up and running!
 
 - Install asdf
   - `brew install asdf`
+  - `asdf plugin add nodejs`
+  - `asdf plugin add ruby`
   - open a new shell
   
 - Install ruby & node
