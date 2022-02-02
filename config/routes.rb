@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   end
   post "/graphql", to: "graphql#execute"
   root 'welcome#index'
+
+  resources :bills, only: [:index]
 end

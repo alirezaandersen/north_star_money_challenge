@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.3'
+ruby '2.7.4'
 
 gem 'graphql'
 gem 'rails', '~> 5.2.2'
@@ -17,6 +17,9 @@ gem 'webpacker', '~> 5.x'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-byebug'
+gem 'pry-doc'
+gem 'pry-rails'
 end
 
 group :development do
